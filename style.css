@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(100deg, #ffffff, #e31212);
+    color: #red;
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+}
+
+header {
+    margin: 50px;
+}
+
+.container {
+    margin: 0px auto;
+    width: 500px;
+    height: 375px;
+    border: 10px black solid;
+    border-radius: 25px;
+}
+
+#video {
+    width: 500px;
+    height: 375px;
+    background-color: #666;
+    border-radius: 15px;
+}
+
+header {
+    font-size: 1.5rem;
+    justify-content: center;
+    align-content: center;
+}
